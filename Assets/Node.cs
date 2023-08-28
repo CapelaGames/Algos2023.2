@@ -11,6 +11,12 @@ namespace AAI.DIJKSTRA
     {
         public List<Node> Neighbours;
         private float _pathWeight = float.PositiveInfinity;
+        public float PathWeight
+        {
+            get => _pathWeight;
+            set => _pathWeight = value;
+        }
+
         
         private Node _previousNode;
         public Node PreviousNode
