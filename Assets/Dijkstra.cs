@@ -1,3 +1,4 @@
+using System;
 using System.Collections.Generic;
 using System.Diagnostics;
 using UnityEngine;
@@ -13,13 +14,17 @@ namespace AAI.DIJKSTRA
         protected Node[] _nodesInScene;
 
 
-
         protected void GetAllNodes()
         {
             _nodesInScene = FindObjectsOfType<Node>();
         }
 
-        void Start()
+        private void Awake()
+        {
+            GetAllNodes();
+        }
+
+        protected virtual void Start()
         {
             //RunAndDisplayPath();
             RunXTimes(100);
@@ -55,7 +60,7 @@ namespace AAI.DIJKSTRA
 
         public List<Node> FindShortestPath(Node start, Node goal)
         {
-            GetAllNodes();
+           // GetAllNodes();
 
             if (RunAlgorithm(start, goal))
             {
@@ -74,7 +79,7 @@ namespace AAI.DIJKSTRA
             return null;
         }
 
-        protected bool RunAlgorithm(Node start, Node goal)
+        protected virtual bool RunAlgorithm(Node start, Node goal)
         {
             List<Node> unexplored = new List<Node>();
 

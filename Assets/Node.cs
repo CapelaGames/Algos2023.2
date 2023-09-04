@@ -10,13 +10,28 @@ namespace AAI.DIJKSTRA
     public class Node : MonoBehaviour
     {
         public List<Node> Neighbours;
+
+        private float _heuristic = 0f;
+        public float Heuristic
+        {
+            get => _heuristic;
+        }
+        public float PathHeuristicWeight
+        {
+            get => _pathWeight + _heuristic;
+        }
+        public float SetUpHeuristic(Vector3 goal)
+        {
+            _heuristic = Vector3.Distance(transform.position, goal);
+            return _heuristic;
+        }
         private float _pathWeight = float.PositiveInfinity;
         public float PathWeight
         {
             get => _pathWeight;
             set => _pathWeight = value;
         }
-
+ 
         
         private Node _previousNode;
         public Node PreviousNode
@@ -24,6 +39,8 @@ namespace AAI.DIJKSTRA
             get => _previousNode;
             set => _previousNode = value;
         }
+        
+        
 
         public void ResetNode()
         {
