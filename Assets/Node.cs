@@ -15,6 +15,8 @@ namespace AAI.DIJKSTRA
         public float Heuristic
         {
             get => _heuristic;
+            
+            
         }
         public float PathHeuristicWeight
         {
@@ -22,6 +24,7 @@ namespace AAI.DIJKSTRA
         }
         public float SetUpHeuristic(Vector3 goal)
         {
+
             _heuristic = Vector3.Distance(transform.position, goal);
             return _heuristic;
         }
