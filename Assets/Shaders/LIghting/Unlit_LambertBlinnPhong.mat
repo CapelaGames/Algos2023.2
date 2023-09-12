@@ -7,8 +7,8 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: Unlit_BlinnPhong
-  m_Shader: {fileID: 4800000, guid: 003e83432530ab546a6dc5619170ca72, type: 3}
+  m_Name: Unlit_LambertBlinnPhong
+  m_Shader: {fileID: 4800000, guid: 01122e17351988c4cb6f974c3a59e0f2, type: 3}
   m_ValidKeywords: []
   m_InvalidKeywords: []
   m_LightmapFlags: 4
@@ -26,6 +26,7 @@ Material:
         m_Offset: {x: 0, y: 0}
     m_Ints: []
     m_Floats:
-    - _Gloss: 10.56
-    m_Colors: []
+    - _Gloss: 0.436
+    m_Colors:
+    - _Color: {r: 0.7924528, g: 0.42986828, b: 0.42986828, a: 1}
   m_BuildTextureStacks: []
