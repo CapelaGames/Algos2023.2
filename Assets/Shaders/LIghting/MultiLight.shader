@@ -23,6 +23,7 @@ Shader "Unlit/MultiLight"
         //Additional pass
         Pass
         {
+            Blend One One
             Tags {"LightMode" = "ForwardAdd"}
             CGPROGRAM
             #pragma multi_compile_fwdadd
