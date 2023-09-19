@@ -33,6 +33,6 @@ Material:
     m_Colors:
     - _Color: {r: 0.754717, g: 0.501958, b: 0.501958, a: 1}
     - _Emission: {r: 0, g: 0, b: 0, a: 1}
-    - _ShadowTint: {r: 0.22022673, g: 0.19579923, b: 0.754717, a: 1}
+    - _ShadowTint: {r: 0.22533202, g: 0.19157171, b: 0.990566, a: 1}
     - _Specular: {r: 0.8148203, g: 0.9056604, b: 0.80740476, a: 1}
   m_BuildTextureStacks: []
