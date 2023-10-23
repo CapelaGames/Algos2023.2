@@ -27,11 +27,15 @@ Material:
     m_Ints: []
     m_Floats:
     - _Amplitude: 0.8
-    - _Glossiness: 0.21
-    - _Metallic: 0
-    - _Speed: 5
-    - _Steepness: 0.5
-    - _Wavelength: 7.47
+    - _Glossiness: 0.51
+    - _Metallic: 0.11
+    - _Speed: 1
+    - _Steepness: 1
+    - _Wavelength: 9.35
     m_Colors:
     - _Color: {r: 0.34603062, g: 0.34709138, b: 0.9056604, a: 1}
+    - _Direction: {r: -0.89, g: 0, b: 0, a: 0}
+    - _WaveA: {r: 4.63, g: -2.35, b: 0.55, a: 40.05}
+    - _WaveB: {r: 0, g: 1, b: 0.25, a: 20}
+    - _WaveC: {r: 1, g: 1, b: 0.15, a: 10}
   m_BuildTextureStacks: []
