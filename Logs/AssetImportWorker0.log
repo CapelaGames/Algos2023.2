@@ -174,3 +174,85 @@ Received Import Request.
   path: Assets/Shaders/Water/Gerstner.shader
   artifactKey: Guid(203ec4bbed5104e45b56b9948e3f2534) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
 Start importing Assets/Shaders/Water/Gerstner.shader using Guid(203ec4bbed5104e45b56b9948e3f2534) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1f91c3fa1ac8b71a9d8ce4420a2f61e1') in 0.096814 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 460.023798 seconds.
+  path: Assets/Shaders/Water/New Material.mat
+  artifactKey: Guid(85832b9cc40f52d48b6cd478e59a1d85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shaders/Water/New Material.mat using Guid(85832b9cc40f52d48b6cd478e59a1d85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7d94eee01372fae64340fd0c35b81887') in 0.082985 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 431.465183 seconds.
+  path: Assets/Shaders/Water/Custom_Gerstner.mat
+  artifactKey: Guid(a5887e3cfa99419448f04716f65d7744) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shaders/Water/Custom_Gerstner.mat using Guid(a5887e3cfa99419448f04716f65d7744) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '476b42cebe23bff7bd05dde552318c62') in 0.075796 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 326.593288 seconds.
+  path: Assets/Shaders/Water/Custom_Gerstner.mat
+  artifactKey: Guid(a5887e3cfa99419448f04716f65d7744) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shaders/Water/Custom_Gerstner.mat using Guid(a5887e3cfa99419448f04716f65d7744) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '76fbfee12de57c4dab0916fb04e86b05') in 0.021302 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.005361 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\acapela\Documents\GitHub\Algos\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\acapela\Documents\GitHub\Algos\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.56 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.224 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1225ms)
+		BeginReloadAssembly (170ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (6ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (37ms)
+		EndReloadAssembly (935ms)
+			LoadAssemblies (116ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (282ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (56ms)
+			SetupLoadedEditorAssemblies (410ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (29ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (73ms)
+				ProcessInitializeOnLoadAttributes (263ms)
+				ProcessInitializeOnLoadMethodAttributes (30ms)
+				AfterProcessingInitializeOnLoad (14ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (9ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 2.33 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3406 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 16 unused Assets / (88.4 KB). Loaded Objects now: 3956.
+Memory consumption went from 128.7 MB to 128.7 MB.
+Total: 3.347300 ms (FindLiveObjects: 0.423600 ms CreateObjectMapping: 0.131900 ms MarkObjects: 2.663100 ms  DeleteObjects: 0.126800 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 853.618125 seconds.
+  path: Assets/Shaders/Water/Gerstner.shader
+  artifactKey: Guid(203ec4bbed5104e45b56b9948e3f2534) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shaders/Water/Gerstner.shader using Guid(203ec4bbed5104e45b56b9948e3f2534) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd45217c6c8fd9da0459373e75ce0ac1c') in 0.032328 seconds 

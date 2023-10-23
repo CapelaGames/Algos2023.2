@@ -10,6 +10,7 @@ Shader "Custom/Gerstner"
         _Steepness ("Steepness", Range(0,1)) = 0.5
         _Wavelength ("Wavelength", Float) = 10
         _Speed ("Speed", Float) = 1
+        _Direction ("Direction (2D)", Vector) = ( 1,0,0,0)
     }
     SubShader
     {
@@ -34,24 +35,38 @@ Shader "Custom/Gerstner"
         half _Metallic;
         fixed4 _Color;
         float _Steepness, _Wavelength, _Speed;
-
+        
+        float2 _Direction;
+        //_Direction ("Direction (2D)", Vector) = ( 1,0,0,0)
+        
         void vert(inout appdata_full vertexData)
         {
-            float3 p = vertexData.vertex.xyz;
+            float3 position = vertexData.vertex.xyz;
 
-            float k = 2 * UNITY_PI / _Wavelength;
-            float c = sqrt(9.8/k);
-            float f = k * (p.x - c * _Time.y);
-            float a = _Steepness / k;
-            p.y = a * sin(f);
-            p.x += a * cos(f);
-            float3 tangent = normalize( float3(
-                1 - _Steepness * sin(f)
-                , _Steepness * cos(f)
-                ,0)  );
-            float3 normal = float3(-tangent.y,tangent.x,0);
+            float wavelength = 2 * UNITY_PI / _Wavelength;
+            float speed = sqrt(9.8/wavelength) * _Speed;
+            float2 direction = normalize(_Direction);
+            float f = wavelength * (dot(direction, position.xz) - speed * _Time.y);
+            float amplitude = _Steepness / wavelength;
+            position.x += direction * amplitude * cos(f);
+            position.y = amplitude * sin(f);
+            position.z += direction.y * (amplitude * cos(f));
             
-            vertexData.vertex.xyz = p;
+            float3 tangent = float3(
+                    1 - direction.x * direction.x * (_Steepness * sin(f)),
+                    direction.x * (_Steepness * cos(f)),
+                    -direction.x * direction.y * (_Steepness * sin(f))
+                );
+
+            float3 binormal = float3(
+                    -direction.x * direction.y * (_Steepness * sin(f)),
+                    direction.y * (_Steepness * cos(f)),
+                    1 - direction.y * direction.y * (_Steepness * sin(f))
+                );
+            
+            float3 normal = normalize(cross(binormal,tangent));
+            
+            vertexData.vertex.xyz = position;
             vertexData.normal = normal;
             
         }
