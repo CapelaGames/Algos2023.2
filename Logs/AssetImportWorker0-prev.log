@@ -15,7 +15,7 @@ C:/Users/acapela/Documents/GitHub/Algos
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-62424
+60418
 Successfully changed project path to: C:/Users/acapela/Documents/GitHub/Algos
 C:/Users/acapela/Documents/GitHub/Algos
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -47,11 +47,11 @@ C:/Users/acapela/Documents/GitHub/Algos
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [19572] Host "[IP] 172.27.14.195 [Port] 0 [Flags] 2 [Guid] 3953397137 [EditorId] 3953397137 [Version] 1048832 [Id] WindowsEditor(7,NS00J002011DE01) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [1740] Host "[IP] 172.27.15.165 [Port] 0 [Flags] 2 [Guid] 1261771772 [EditorId] 1261771772 [Version] 1048832 [Id] WindowsEditor(7,NS00J002011DE01) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
-Player connection [19572] Host "[IP] 172.27.14.195 [Port] 0 [Flags] 2 [Guid] 3953397137 [EditorId] 3953397137 [Version] 1048832 [Id] WindowsEditor(7,NS00J002011DE01) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [1740] Host "[IP] 172.27.15.165 [Port] 0 [Flags] 2 [Guid] 1261771772 [EditorId] 1261771772 [Version] 1048832 [Id] WindowsEditor(7,NS00J002011DE01) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
-Refreshing native plugins compatible for Editor in 65.25 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 64.51 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2021.3.26f1 (a16dc32e0ff2)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.26f1/Editor/Data/Resources/UnitySubsystems
@@ -67,42 +67,42 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.26f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.26f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.26f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56420
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56356
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.26f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.26f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.26f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.009326 seconds.
+Registered in 0.007399 seconds.
 Native extension for WindowsStandalone target not found
 Native extension for Android target not found
-Android Extension - Scanning For ADB Devices 278 ms
+Android Extension - Scanning For ADB Devices 274 ms
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 63.08 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 64.39 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.010 seconds
+- Completed reload, in  1.003 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1011ms)
-		BeginReloadAssembly (93ms)
+	ReloadAssembly (1004ms)
+		BeginReloadAssembly (89ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (807ms)
-			LoadAssemblies (91ms)
+		EndReloadAssembly (813ms)
+			LoadAssemblies (87ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (106ms)
+			SetupTypeCache (111ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (33ms)
+			RebuildScriptCaches (34ms)
 			SetupLoadedEditorAssemblies (610ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (396ms)
+				InitializePlatformSupportModulesInManaged (394ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (63ms)
+				RefreshPlugins (64ms)
 				BeforeProcessingInitializeOnLoad (2ms)
-				ProcessInitializeOnLoadAttributes (100ms)
+				ProcessInitializeOnLoadAttributes (101ms)
 				ProcessInitializeOnLoadMethodAttributes (49ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
@@ -110,40 +110,40 @@ Domain Reload Profiling:
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.006397 seconds.
+Registered in 0.005092 seconds.
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image C:\Users\acapela\Documents\GitHub\Algos\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
 Symbol file LoadedFromMemory doesn't match image C:\Users\acapela\Documents\GitHub\Algos\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
 Native extension for WindowsStandalone target not found
 Native extension for Android target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.49 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 0.51 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.077 seconds
+- Completed reload, in  1.053 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1078ms)
-		BeginReloadAssembly (126ms)
+	ReloadAssembly (1054ms)
+		BeginReloadAssembly (101ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (7ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (18ms)
-		EndReloadAssembly (840ms)
-			LoadAssemblies (93ms)
+		EndReloadAssembly (838ms)
+			LoadAssemblies (72ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (261ms)
+			SetupTypeCache (264ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (58ms)
-			SetupLoadedEditorAssemblies (370ms)
+			RebuildScriptCaches (56ms)
+			SetupLoadedEditorAssemblies (368ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (27ms)
+				InitializePlatformSupportModulesInManaged (25ms)
 				SetLoadedEditorAssemblies (0ms)
 				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (80ms)
-				ProcessInitializeOnLoadAttributes (231ms)
+				BeforeProcessingInitializeOnLoad (77ms)
+				ProcessInitializeOnLoadAttributes (236ms)
 				ProcessInitializeOnLoadMethodAttributes (22ms)
-				AfterProcessingInitializeOnLoad (9ms)
+				AfterProcessingInitializeOnLoad (7ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (6ms)
@@ -151,12 +151,12 @@ Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
 Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
-Refreshing native plugins compatible for Editor in 0.32 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 0.33 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3064 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 22 unused Assets / (284.0 KB). Loaded Objects now: 3529.
-Memory consumption went from 113.6 MB to 113.3 MB.
-Total: 2.840300 ms (FindLiveObjects: 0.189600 ms CreateObjectMapping: 0.075300 ms MarkObjects: 2.521800 ms  DeleteObjects: 0.052500 ms)
+Unloading 3070 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 22 unused Assets / (284.6 KB). Loaded Objects now: 3537.
+Memory consumption went from 116.4 MB to 116.1 MB.
+Total: 2.074200 ms (FindLiveObjects: 0.163600 ms CreateObjectMapping: 0.070200 ms MarkObjects: 1.780700 ms  DeleteObjects: 0.058800 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -170,211 +170,75 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 17208.580477 seconds.
-  path: Assets/Scenes/SampleScene.unity
-  artifactKey: Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/SampleScene.unity using Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8cf306bbd8cecd8b1fc9b665cfde95fc') in 0.009177 seconds 
+  Time since last request: 207.788381 seconds.
+  path: Assets/Shaders/Water/Water.unity
+  artifactKey: Guid(ad15601eb461fce4fa91f509023fe395) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shaders/Water/Water.unity using Guid(ad15601eb461fce4fa91f509023fe395) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '42e3fdf4de4d565247d824b6148fb163') in 0.012998 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 364.393215 seconds.
-  path: Assets/Shaders/LIghting/BlinnPhong.shader
-  artifactKey: Guid(003e83432530ab546a6dc5619170ca72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Shaders/LIghting/BlinnPhong.shader using Guid(003e83432530ab546a6dc5619170ca72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '25895ccdc3b2c3697a6c6f3122f96d11') in 0.044437 seconds 
+  Time since last request: 87.469658 seconds.
+  path: Assets/Shaders/Water/Gerstner.shader
+  artifactKey: Guid(203ec4bbed5104e45b56b9948e3f2534) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shaders/Water/Gerstner.shader using Guid(203ec4bbed5104e45b56b9948e3f2534) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd1104faca4701e5c89404d85951e7dd3') in 0.055324 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 114.855610 seconds.
-  path: Assets/Shaders/LIghting/Lambert.shader
-  artifactKey: Guid(7dce55128195f1a4caa30e8048d14314) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Shaders/LIghting/Lambert.shader using Guid(7dce55128195f1a4caa30e8048d14314) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '82178187295cb6b331c71fb34cb64978') in 0.013368 seconds 
+  Time since last request: 359.585281 seconds.
+  path: Assets/Shaders/Water/Gerstner.shader
+  artifactKey: Guid(203ec4bbed5104e45b56b9948e3f2534) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shaders/Water/Gerstner.shader using Guid(203ec4bbed5104e45b56b9948e3f2534) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0744030a8460e722c1d7719dd214db76') in 0.017014 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 227.506457 seconds.
-  path: Assets/Shaders/LIghting/Fresnel.shader
-  artifactKey: Guid(22afd472eb75f864a992c2d21c269948) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Shaders/LIghting/Fresnel.shader using Guid(22afd472eb75f864a992c2d21c269948) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b084d6b545d5ff8d49275a34f2c4d028') in 0.009990 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 28.148172 seconds.
-  path: Assets/Shaders/LIghting/Fresnel.shader
-  artifactKey: Guid(22afd472eb75f864a992c2d21c269948) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Shaders/LIghting/Fresnel.shader using Guid(22afd472eb75f864a992c2d21c269948) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8bcf08e86893baa376a59e41042c1fe3') in 0.003370 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 339.767862 seconds.
-  path: Assets/Shaders/LIghting/Fresnel.shader
-  artifactKey: Guid(22afd472eb75f864a992c2d21c269948) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Shaders/LIghting/Fresnel.shader using Guid(22afd472eb75f864a992c2d21c269948) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4d62cbce6103f558dea7773404db02a4') in 0.004412 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 316.883309 seconds.
-  path: Assets/Shaders/LIghting/Fresnel.shader
-  artifactKey: Guid(22afd472eb75f864a992c2d21c269948) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Shaders/LIghting/Fresnel.shader using Guid(22afd472eb75f864a992c2d21c269948) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '96adf0e9e7a1017450740580c9a406ec') in 0.003121 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 688.532676 seconds.
-  path: Assets/Shaders/LIghting/Fresnel.shader
-  artifactKey: Guid(22afd472eb75f864a992c2d21c269948) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Shaders/LIghting/Fresnel.shader using Guid(22afd472eb75f864a992c2d21c269948) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cde171ad4c77f80bd5201339491e43d0') in 0.007595 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 84.434211 seconds.
-  path: Assets/Shaders/LIghting/Fresnel.shader
-  artifactKey: Guid(22afd472eb75f864a992c2d21c269948) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Shaders/LIghting/Fresnel.shader using Guid(22afd472eb75f864a992c2d21c269948) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '098fde62b3eda76a8c00d9de6b4c9c58') in 0.006506 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 19.290880 seconds.
-  path: Assets/Shaders/LIghting/Fresnel.shader
-  artifactKey: Guid(22afd472eb75f864a992c2d21c269948) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Shaders/LIghting/Fresnel.shader using Guid(22afd472eb75f864a992c2d21c269948) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9580a3aad41698ca1fa92c135b2a0f41') in 0.003358 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 28.416870 seconds.
-  path: Assets/Shaders/LIghting/Unlit_Fresnel.mat
-  artifactKey: Guid(7e5f3ecf9de99e14cbbc193c05d11002) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Shaders/LIghting/Unlit_Fresnel.mat using Guid(7e5f3ecf9de99e14cbbc193c05d11002) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6e8c755eb4ea3fa4c3a4ed71ba34f77d') in 0.098141 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 26.177364 seconds.
-  path: Assets/Shaders/LIghting/Unlit_Fresnel.mat
-  artifactKey: Guid(7e5f3ecf9de99e14cbbc193c05d11002) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Shaders/LIghting/Unlit_Fresnel.mat using Guid(7e5f3ecf9de99e14cbbc193c05d11002) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '19c2d69bb16535fe5a8675cd98dc1af7') in 0.038742 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 367.074470 seconds.
-  path: Assets/Shaders/LIghting/Unlit_Fresnel.mat
-  artifactKey: Guid(7e5f3ecf9de99e14cbbc193c05d11002) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Shaders/LIghting/Unlit_Fresnel.mat using Guid(7e5f3ecf9de99e14cbbc193c05d11002) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '821498c05627a35a94255646fdc14dd2') in 0.059906 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 4.753686 seconds.
-  path: Assets/Shaders/LIghting/Unlit_Fresnel.mat
-  artifactKey: Guid(7e5f3ecf9de99e14cbbc193c05d11002) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Shaders/LIghting/Unlit_Fresnel.mat using Guid(7e5f3ecf9de99e14cbbc193c05d11002) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6704ca4fec6c207c0ab43d6c90daf049') in 0.053339 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 37.943455 seconds.
-  path: Assets/Shaders/LIghting/Unlit_Fresnel.mat
-  artifactKey: Guid(7e5f3ecf9de99e14cbbc193c05d11002) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Shaders/LIghting/Unlit_Fresnel.mat using Guid(7e5f3ecf9de99e14cbbc193c05d11002) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '54acf5b6f3e715edebb2addbe9d981e0') in 0.032318 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 43.875276 seconds.
-  path: Assets/Shaders/LIghting/Unlit_Fresnel.mat
-  artifactKey: Guid(7e5f3ecf9de99e14cbbc193c05d11002) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Shaders/LIghting/Unlit_Fresnel.mat using Guid(7e5f3ecf9de99e14cbbc193c05d11002) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '85785621482e1d7f98eb7697573fd06d') in 0.029207 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 4.410786 seconds.
-  path: Assets/Shaders/LIghting/Unlit_Fresnel.mat
-  artifactKey: Guid(7e5f3ecf9de99e14cbbc193c05d11002) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Shaders/LIghting/Unlit_Fresnel.mat using Guid(7e5f3ecf9de99e14cbbc193c05d11002) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b69b4e72d520dbd971bb03ce37623cd0') in 0.030642 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 9.963708 seconds.
-  path: Assets/Shaders/LIghting/Unlit_Fresnel.mat
-  artifactKey: Guid(7e5f3ecf9de99e14cbbc193c05d11002) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Shaders/LIghting/Unlit_Fresnel.mat using Guid(7e5f3ecf9de99e14cbbc193c05d11002) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3b601f1333de6f109774b759ccc65ee3') in 0.030040 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 130.562719 seconds.
-  path: Assets/Shaders/LIghting/Unlit_Fresnel.mat
-  artifactKey: Guid(7e5f3ecf9de99e14cbbc193c05d11002) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Shaders/LIghting/Unlit_Fresnel.mat using Guid(7e5f3ecf9de99e14cbbc193c05d11002) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '96f95951a82681385133274e5d225dbf') in 0.032944 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 59.616701 seconds.
-  path: Assets/Shaders/LIghting/Unlit_Fresnel.mat
-  artifactKey: Guid(7e5f3ecf9de99e14cbbc193c05d11002) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Shaders/LIghting/Unlit_Fresnel.mat using Guid(7e5f3ecf9de99e14cbbc193c05d11002) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '71f38a57319c3fbe41fc75fe49c4395e') in 0.032720 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 226.545046 seconds.
-  path: Assets/Shaders/LIghting/Unlit_Fresnel.mat
-  artifactKey: Guid(7e5f3ecf9de99e14cbbc193c05d11002) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Shaders/LIghting/Unlit_Fresnel.mat using Guid(7e5f3ecf9de99e14cbbc193c05d11002) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Shader error in 'Unlit/Fresnel': unrecognized identifier 'unity_DeltaTime' at line 60 (on d3d11)
-
-Compiling Subshader: 0, Pass: <Unnamed Pass 0>, Vertex program with <no keywords>
-Platform defines: SHADER_API_DESKTOP UNITY_ENABLE_DETAIL_NORMALMAP UNITY_ENABLE_REFLECTION_BUFFERS UNITY_LIGHTMAP_FULL_HDR UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BLENDING UNITY_SPECCUBE_BOX_PROJECTION UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS
-Disabled keywords: SHADER_API_GLES30 UNITY_ASTC_NORMALMAP_ENCODING UNITY_COLORSPACE_GAMMA UNITY_ENABLE_NATIVE_SHADOW_LOOKUPS UNITY_FRAMEBUFFER_FETCH_AVAILABLE UNITY_HALF_PRECISION_FRAGMENT_SHADER_REGISTERS UNITY_HARDWARE_TIER1 UNITY_HARDWARE_TIER2 UNITY_HARDWARE_TIER3 UNITY_LIGHTMAP_DLDR_ENCODING UNITY_LIGHTMAP_RGBM_ENCODING UNITY_METAL_SHADOWS_USE_POINT_FILTERING UNITY_NO_DXT5nm UNITY_NO_FULL_STANDARD_SHADER UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF2 UNITY_PBS_USE_BRDF3 UNITY_PRETRANSFORM_TO_DISPLAY_ORIENTATION UNITY_UNIFIED_SHADER_PRECISION_MODEL UNITY_VIRTUAL_TEXTURING
-Shader error in 'Unlit/Fresnel': unrecognized identifier 'unity_DeltaTime' at line 60 (on d3d11)
-
-Compiling Subshader: 0, Pass: <Unnamed Pass 0>, Vertex program with <no keywords>
-Platform defines: SHADER_API_DESKTOP UNITY_ENABLE_DETAIL_NORMALMAP UNITY_ENABLE_REFLECTION_BUFFERS UNITY_LIGHTMAP_FULL_HDR UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BLENDING UNITY_SPECCUBE_BOX_PROJECTION UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS
-Disabled keywords: SHADER_API_GLES30 UNITY_ASTC_NORMALMAP_ENCODING UNITY_COLORSPACE_GAMMA UNITY_ENABLE_NATIVE_SHADOW_LOOKUPS UNITY_FRAMEBUFFER_FETCH_AVAILABLE UNITY_HALF_PRECISION_FRAGMENT_SHADER_REGISTERS UNITY_HARDWARE_TIER1 UNITY_HARDWARE_TIER2 UNITY_HARDWARE_TIER3 UNITY_LIGHTMAP_DLDR_ENCODING UNITY_LIGHTMAP_RGBM_ENCODING UNITY_METAL_SHADOWS_USE_POINT_FILTERING UNITY_NO_DXT5nm UNITY_NO_FULL_STANDARD_SHADER UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF2 UNITY_PBS_USE_BRDF3 UNITY_PRETRANSFORM_TO_DISPLAY_ORIENTATION UNITY_UNIFIED_SHADER_PRECISION_MODEL UNITY_VIRTUAL_TEXTURING
- -> (artifact id: '7ae2850c039080eaa9da0d627a90b4c9') in 0.093248 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 19.890172 seconds.
-  path: Assets/Shaders/LIghting/Unlit_Fresnel.mat
-  artifactKey: Guid(7e5f3ecf9de99e14cbbc193c05d11002) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Shaders/LIghting/Unlit_Fresnel.mat using Guid(7e5f3ecf9de99e14cbbc193c05d11002) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '53da47305a4dce58b084e042f2540f0f') in 0.034801 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 35.061005 seconds.
-  path: Assets/Shaders/LIghting/Unlit_Fresnel.mat
-  artifactKey: Guid(7e5f3ecf9de99e14cbbc193c05d11002) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Shaders/LIghting/Unlit_Fresnel.mat using Guid(7e5f3ecf9de99e14cbbc193c05d11002) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2ad824bdebfd1106b2169d45982ea11a') in 0.034604 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 65.524443 seconds.
-  path: Assets/Shaders/LIghting/Unlit_Fresnel.mat
-  artifactKey: Guid(7e5f3ecf9de99e14cbbc193c05d11002) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Shaders/LIghting/Unlit_Fresnel.mat using Guid(7e5f3ecf9de99e14cbbc193c05d11002) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e4bbfa943ec8524e9ab7c73ae1ec9062') in 0.029727 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 2603.730890 seconds.
-  path: Assets/Shaders/LIghting/NewBehaviourScript.cs
-  artifactKey: Guid(deca587b2129ce145a08e40536e12e60) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Shaders/LIghting/NewBehaviourScript.cs using Guid(deca587b2129ce145a08e40536e12e60) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f9f41b6bbbd5b895b302aad54c9b1af4') in 0.014433 seconds 
+  Time since last request: 101.360870 seconds.
+  path: Assets/Shaders/Water/Gerstner.shader
+  artifactKey: Guid(203ec4bbed5104e45b56b9948e3f2534) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shaders/Water/Gerstner.shader using Guid(203ec4bbed5104e45b56b9948e3f2534) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '009caaaeeb1e51614c91474ae511fe2c') in 0.003871 seconds 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.004973 seconds.
+Registered in 0.005429 seconds.
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image C:\Users\acapela\Documents\GitHub\Algos\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
 Symbol file LoadedFromMemory doesn't match image C:\Users\acapela\Documents\GitHub\Algos\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
 Native extension for WindowsStandalone target not found
 Native extension for Android target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.49 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 0.66 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.031 seconds
+- Completed reload, in  1.109 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1032ms)
-		BeginReloadAssembly (151ms)
+	ReloadAssembly (1109ms)
+		BeginReloadAssembly (149ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (6ms)
+			DisableScriptedObjects (7ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (33ms)
-		EndReloadAssembly (783ms)
-			LoadAssemblies (94ms)
+			CreateAndSetChildDomain (31ms)
+		EndReloadAssembly (861ms)
+			LoadAssemblies (102ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (253ms)
+			SetupTypeCache (285ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (51ms)
-			SetupLoadedEditorAssemblies (327ms)
+			RebuildScriptCaches (53ms)
+			SetupLoadedEditorAssemblies (356ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (27ms)
-				SetLoadedEditorAssemblies (0ms)
+				SetLoadedEditorAssemblies (1ms)
 				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (64ms)
-				ProcessInitializeOnLoadAttributes (204ms)
-				ProcessInitializeOnLoadMethodAttributes (21ms)
-				AfterProcessingInitializeOnLoad (10ms)
+				BeforeProcessingInitializeOnLoad (67ms)
+				ProcessInitializeOnLoadAttributes (229ms)
+				ProcessInitializeOnLoadMethodAttributes (23ms)
+				AfterProcessingInitializeOnLoad (7ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (6ms)
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 1.98 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 1.66 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3051 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 15 unused Assets / (24.6 KB). Loaded Objects now: 3573.
-Memory consumption went from 113.0 MB to 112.9 MB.
-Total: 2.700600 ms (FindLiveObjects: 0.360000 ms CreateObjectMapping: 0.084400 ms MarkObjects: 2.239400 ms  DeleteObjects: 0.016000 ms)
+Unloading 3426 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 36 unused Assets / (2.2 MB). Loaded Objects now: 3897.
+Memory consumption went from 129.6 MB to 127.3 MB.
+Total: 3.587300 ms (FindLiveObjects: 0.361900 ms CreateObjectMapping: 0.084800 ms MarkObjects: 2.217200 ms  DeleteObjects: 0.922200 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -388,151 +252,61 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 53.241853 seconds.
-  path: Assets/Shaders/LIghting/LambertBlinnPhong.shader
-  artifactKey: Guid(01122e17351988c4cb6f974c3a59e0f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Shaders/LIghting/LambertBlinnPhong.shader using Guid(01122e17351988c4cb6f974c3a59e0f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'abca7b37c5b76615481a0cfc7a608d3b') in 0.020712 seconds 
+  Time since last request: 285.863760 seconds.
+  path: Assets/Shaders/Water/Custom_Gerstner.mat
+  artifactKey: Guid(a5887e3cfa99419448f04716f65d7744) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shaders/Water/Custom_Gerstner.mat using Guid(a5887e3cfa99419448f04716f65d7744) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6871a2d7237a8ce5c5ed80a633733256') in 0.224001 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 26.800024 seconds.
-  path: Assets/Shaders/LIghting/LambertBlinnPhong.shader
-  artifactKey: Guid(01122e17351988c4cb6f974c3a59e0f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Shaders/LIghting/LambertBlinnPhong.shader using Guid(01122e17351988c4cb6f974c3a59e0f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fe797ce662dac897d63fe09f42f5500b') in 0.003346 seconds 
+  Time since last request: 271.093583 seconds.
+  path: Assets/Shaders/Water/waterplane.fbx
+  artifactKey: Guid(0e97f3c46b4b22946a42821f5367fa71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shaders/Water/waterplane.fbx using Guid(0e97f3c46b4b22946a42821f5367fa71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5128bbb899c863c95d9e742636822ae3') in 0.080693 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 18.407449 seconds.
-  path: Assets/Shaders/LIghting/LambertBlinnPhong.shader
-  artifactKey: Guid(01122e17351988c4cb6f974c3a59e0f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Shaders/LIghting/LambertBlinnPhong.shader using Guid(01122e17351988c4cb6f974c3a59e0f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6b70321b24ead1667b780d0a46cdadd2') in 0.003068 seconds 
+  Time since last request: 7.349574 seconds.
+  path: Assets/Shaders/Water/waterplane.fbx
+  artifactKey: Guid(0e97f3c46b4b22946a42821f5367fa71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shaders/Water/waterplane.fbx using Guid(0e97f3c46b4b22946a42821f5367fa71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '183d5e88babb01f95063ce59aeaab7ff') in 0.020353 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 8.264181 seconds.
-  path: Assets/Shaders/LIghting/LambertBlinnPhong.shader
-  artifactKey: Guid(01122e17351988c4cb6f974c3a59e0f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Shaders/LIghting/LambertBlinnPhong.shader using Guid(01122e17351988c4cb6f974c3a59e0f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bbe09e033d365ea1da0660a69c525333') in 0.003304 seconds 
+  Time since last request: 4.164640 seconds.
+  path: Assets/Shaders/Water/waterplane.fbx
+  artifactKey: Guid(0e97f3c46b4b22946a42821f5367fa71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shaders/Water/waterplane.fbx using Guid(0e97f3c46b4b22946a42821f5367fa71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2cc307040c68442dfdcb5792612484da') in 0.018864 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 23.157232 seconds.
-  path: Assets/Shaders/LIghting/LambertBlinnPhong.shader
-  artifactKey: Guid(01122e17351988c4cb6f974c3a59e0f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Shaders/LIghting/LambertBlinnPhong.shader using Guid(01122e17351988c4cb6f974c3a59e0f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8cc6e5aee887d5606157df2fdf0c1b44') in 0.003146 seconds 
+  Time since last request: 6.031803 seconds.
+  path: Assets/Shaders/Water/waterplane.fbx
+  artifactKey: Guid(0e97f3c46b4b22946a42821f5367fa71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shaders/Water/waterplane.fbx using Guid(0e97f3c46b4b22946a42821f5367fa71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3de9430ce5992e7179c3eb7c14972ee0') in 0.020107 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 48.941134 seconds.
-  path: Assets/Shaders/LIghting/LambertBlinnPhong.shader
-  artifactKey: Guid(01122e17351988c4cb6f974c3a59e0f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Shaders/LIghting/LambertBlinnPhong.shader using Guid(01122e17351988c4cb6f974c3a59e0f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0b3977c979a2466d54805cfe3f6e4ab0') in 0.003671 seconds 
+  Time since last request: 180.211349 seconds.
+  path: Assets/Shaders/Water/waterplane 1.fbx
+  artifactKey: Guid(da3b68550ae807f48b776b1d74cf37f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shaders/Water/waterplane 1.fbx using Guid(da3b68550ae807f48b776b1d74cf37f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'af54cd31f6612ee066306c2ace3e526a') in 0.061409 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 157.942898 seconds.
-  path: Assets/Shaders/LIghting/LambertBlinnPhong.shader
-  artifactKey: Guid(01122e17351988c4cb6f974c3a59e0f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Shaders/LIghting/LambertBlinnPhong.shader using Guid(01122e17351988c4cb6f974c3a59e0f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cd443a82145ddb41632e2d29506d8f60') in 0.003347 seconds 
+  Time since last request: 428.884936 seconds.
+  path: Assets/Shaders/Water/waterplane.fbx
+  artifactKey: Guid(0e97f3c46b4b22946a42821f5367fa71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shaders/Water/waterplane.fbx using Guid(0e97f3c46b4b22946a42821f5367fa71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ceaad1e95a8d09c482ec5a1011469695') in 0.031212 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 11.240977 seconds.
-  path: Assets/Shaders/LIghting/Unlit_LambertBlinnPhong.mat
-  artifactKey: Guid(358003c3ace78b448ae7b1bd66f10e01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Shaders/LIghting/Unlit_LambertBlinnPhong.mat using Guid(358003c3ace78b448ae7b1bd66f10e01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'edeaf33678fdd58c3d2022495fe7a752') in 0.073223 seconds 
+  Time since last request: 2852.124160 seconds.
+  path: Assets/Shaders/Water/waterplane.fbx
+  artifactKey: Guid(0e97f3c46b4b22946a42821f5367fa71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shaders/Water/waterplane.fbx using Guid(0e97f3c46b4b22946a42821f5367fa71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6853ed0ad1f099c1b4d69b29f37684e8') in 0.020512 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 1002.751688 seconds.
-  path: Assets/Shaders/LIghting/Unlit_LambertBlinnPhong.mat
-  artifactKey: Guid(358003c3ace78b448ae7b1bd66f10e01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Shaders/LIghting/Unlit_LambertBlinnPhong.mat using Guid(358003c3ace78b448ae7b1bd66f10e01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a416ae1ed25150f12ce162d0fecceab8') in 0.044010 seconds 
+  Time since last request: 7.033775 seconds.
+  path: Assets/Shaders/Water/waterplane.fbx
+  artifactKey: Guid(0e97f3c46b4b22946a42821f5367fa71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shaders/Water/waterplane.fbx using Guid(0e97f3c46b4b22946a42821f5367fa71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd521caefee8281244ee19ef5cad0bd38') in 0.018309 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 140.380403 seconds.
-  path: Assets/Shaders/LIghting/Unlit_LambertBlinnPhong.mat
-  artifactKey: Guid(358003c3ace78b448ae7b1bd66f10e01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Shaders/LIghting/Unlit_LambertBlinnPhong.mat using Guid(358003c3ace78b448ae7b1bd66f10e01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e910f7f4c395aaca22c9461905195ce1') in 0.047407 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 67.750686 seconds.
-  path: Assets/Shaders/LIghting/Unlit_LambertBlinnPhong.mat
-  artifactKey: Guid(358003c3ace78b448ae7b1bd66f10e01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Shaders/LIghting/Unlit_LambertBlinnPhong.mat using Guid(358003c3ace78b448ae7b1bd66f10e01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0755ba7d90b088332813fb075a715bfb') in 0.029438 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 839.642160 seconds.
-  path: Assets/Shaders/LIghting/New Material.mat
-  artifactKey: Guid(b7bbd9c2d69a4094c8a92834704a4614) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Shaders/LIghting/New Material.mat using Guid(b7bbd9c2d69a4094c8a92834704a4614) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'edb50dad04ccd63f6276d901c601fd3a') in 0.038454 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000032 seconds.
-  path: Assets/Shaders/LIghting/Unlit_Fresnel.mat
-  artifactKey: Guid(7e5f3ecf9de99e14cbbc193c05d11002) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Shaders/LIghting/Unlit_Fresnel.mat using Guid(7e5f3ecf9de99e14cbbc193c05d11002) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9067635d43219e69b4597196b3d6288e') in 0.052851 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000015 seconds.
-  path: Assets/Shaders/LIghting/Unlit_LambertBlinnPhong.mat
-  artifactKey: Guid(358003c3ace78b448ae7b1bd66f10e01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Shaders/LIghting/Unlit_LambertBlinnPhong.mat using Guid(358003c3ace78b448ae7b1bd66f10e01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9dad40bba1d2760d8b6ed09441ea411a') in 0.030587 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 9.982526 seconds.
-  path: Assets/Shaders/LIghting/Unlit_BlinnPhong.mat
-  artifactKey: Guid(c50be11eda3136047b3042e78bdf0bcb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Shaders/LIghting/Unlit_BlinnPhong.mat using Guid(c50be11eda3136047b3042e78bdf0bcb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'be14639f05e477b885dc40350d693329') in 0.010317 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 745.375126 seconds.
-  path: Assets/Shaders/LIghting/MultiLight.shader
-  artifactKey: Guid(8537cede1512dbc46824106b7e3783bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Shaders/LIghting/MultiLight.shader using Guid(8537cede1512dbc46824106b7e3783bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '239bab87893ecba3d7fb4f9f1448ed73') in 0.009645 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 137.250265 seconds.
-  path: Assets/Shaders/LIghting/MultiLight.shader
-  artifactKey: Guid(8537cede1512dbc46824106b7e3783bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Shaders/LIghting/MultiLight.shader using Guid(8537cede1512dbc46824106b7e3783bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3c15ae930690d1bfa4b3bca5a8ca62f0') in 0.005580 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 17.279557 seconds.
-  path: Assets/Shaders/LIghting/MultiLight.shader
-  artifactKey: Guid(8537cede1512dbc46824106b7e3783bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Shaders/LIghting/MultiLight.shader using Guid(8537cede1512dbc46824106b7e3783bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a2de393938d4d9481e45ed1110012586') in 0.003326 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 14.826636 seconds.
-  path: Assets/Shaders/LIghting/MultiLight.shader
-  artifactKey: Guid(8537cede1512dbc46824106b7e3783bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Shaders/LIghting/MultiLight.shader using Guid(8537cede1512dbc46824106b7e3783bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fa4badb81341ff30b64f961ffd5e86d9') in 0.005156 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 82.748962 seconds.
-  path: Assets/Shaders/LIghting/MultiLight.shader
-  artifactKey: Guid(8537cede1512dbc46824106b7e3783bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Shaders/LIghting/MultiLight.shader using Guid(8537cede1512dbc46824106b7e3783bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f5c1458ce332006d7afd24a72115ec2d') in 0.007945 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 51.392916 seconds.
-  path: Assets/Shaders/LIghting/MultiLight.shader
-  artifactKey: Guid(8537cede1512dbc46824106b7e3783bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Shaders/LIghting/MultiLight.shader using Guid(8537cede1512dbc46824106b7e3783bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f258924bac81655a94a63f2a59a4864c') in 0.003888 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 160.254842 seconds.
-  path: Assets/Shaders/LIghting/Fresnel.shader
-  artifactKey: Guid(22afd472eb75f864a992c2d21c269948) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Shaders/LIghting/Fresnel.shader using Guid(22afd472eb75f864a992c2d21c269948) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8fcd122d05647f43ff4d00c40e480688') in 0.007911 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.614222 seconds.
-  path: Assets/Shaders/LIghting/LambertBlinnPhong.shader
-  artifactKey: Guid(01122e17351988c4cb6f974c3a59e0f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Shaders/LIghting/LambertBlinnPhong.shader using Guid(01122e17351988c4cb6f974c3a59e0f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f69643014f4c24d9713a933af906a33d') in 0.012739 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 1.180897 seconds.
-  path: Assets/Shaders/LIghting/Phong.shader
-  artifactKey: Guid(5ae012bfb14d9254abac1b268ffb00df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Shaders/LIghting/Phong.shader using Guid(5ae012bfb14d9254abac1b268ffb00df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd0adfd0771d3899c9fe47b9e981ca2c2') in 0.008348 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 13.039686 seconds.
-  path: Assets/Shaders/LIghting/IncLighting.cginc
-  artifactKey: Guid(aaaa79b86df387148978d673f4ad8d93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Shaders/LIghting/IncLighting.cginc using Guid(aaaa79b86df387148978d673f4ad8d93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5251797bf5f899f3ff26badb3f1537fa') in 0.009516 seconds 
+  Time since last request: 37.898857 seconds.
+  path: Assets/Shaders/Water/waterplane.fbx
+  artifactKey: Guid(0e97f3c46b4b22946a42821f5367fa71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shaders/Water/waterplane.fbx using Guid(0e97f3c46b4b22946a42821f5367fa71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a1e95c126c47a4fdb13c47a14277fea3') in 0.021792 seconds 
