@@ -13,6 +13,8 @@ Shader "Custom/Gerstner"
         //_Direction ("Direction (2D)", Vector) = ( 1,0,0,0)
         
         _WaveA("Wave A (dir, steepness, wavelength)", Vector ) = (1, 0, 0.5 , 10)
+        _WaveB("Wave B (dir, steepness, wavelength)", Vector ) = (0, 1, 0.25 , 20)
+        _WaveC("Wave C (dir, steepness, wavelength)", Vector ) = (1, 1, 0.15 , 10)
     }
     SubShader
     {
@@ -37,9 +39,11 @@ Shader "Custom/Gerstner"
         half _Metallic;
         fixed4 _Color;
         float _Speed;//_Steepness, _Wavelength, 
-        float4 _WaveA;
+        float4 _WaveA, _WaveB, _WaveC;
         //float2 _Direction;
         //_WaveA("Wave A (dir, steepness, wavelength)", Vector ) = (1, 0, 0.5 , 10)
+        //_WaveB("Wave B (dir, steepness, wavelength)", Vector ) = (0, 1, 0.25 , 20)
+        //_WaveC("Wave C (dir, steepness, wavelength)", Vector ) = (1, 1, 0.15 , 10)
 
         float3 GerstnerWave(float4 wave, float3 position, inout float3 tangent, inout float3 binormal)
         {
@@ -81,10 +85,12 @@ Shader "Custom/Gerstner"
             float3 superPosition = position;
             
             superPosition += GerstnerWave(_WaveA, position, tangent, binormal);
+            superPosition += GerstnerWave(_WaveB, position, tangent, binormal);
+            superPosition += GerstnerWave(_WaveC, position, tangent, binormal);
             
             float3 normal = normalize(cross(binormal,tangent));
             
-            vertexData.vertex.xyz = position;
+            vertexData.vertex.xyz = superPosition;
             vertexData.normal = normal;
             
         }
