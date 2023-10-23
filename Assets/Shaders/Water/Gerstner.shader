@@ -7,10 +7,12 @@ Shader "Custom/Gerstner"
         _Glossiness ("Smoothness", Range(0,1)) = 0.5
         _Metallic ("Metallic", Range(0,1)) = 0.0
         //_Amplitude ("Amplitude", Float) = 1
-        _Steepness ("Steepness", Range(0,1)) = 0.5
-        _Wavelength ("Wavelength", Float) = 10
+        //_Steepness ("Steepness", Range(0,1)) = 0.5
+       // _Wavelength ("Wavelength", Float) = 10
         _Speed ("Speed", Float) = 1
-        _Direction ("Direction (2D)", Vector) = ( 1,0,0,0)
+        //_Direction ("Direction (2D)", Vector) = ( 1,0,0,0)
+        
+        _WaveA("Wave A (dir, steepness, wavelength)", Vector ) = (1, 0, 0.5 , 10)
     }
     SubShader
     {
@@ -34,35 +36,51 @@ Shader "Custom/Gerstner"
         half _Glossiness;
         half _Metallic;
         fixed4 _Color;
-        float _Steepness, _Wavelength, _Speed;
-        
-        float2 _Direction;
-        //_Direction ("Direction (2D)", Vector) = ( 1,0,0,0)
+        float _Speed;//_Steepness, _Wavelength, 
+        float4 _WaveA;
+        //float2 _Direction;
+        //_WaveA("Wave A (dir, steepness, wavelength)", Vector ) = (1, 0, 0.5 , 10)
+
+        float3 GerstnerWave(float4 wave, float3 position, inout float3 tangent, inout float3 binormal)
+        {
+            float steepness = wave.z;
+            float wavelength = 2 * UNITY_PI / wave.w;
+            float speed = sqrt(9.8/wavelength) * _Speed;
+            float2 direction = normalize(wave.xy);
+            float f = wavelength * (dot(direction, position.xz) - speed * _Time.y);
+            float amplitude = steepness / wavelength;
+            /*position.x += direction.x * amplitude * cos(f);
+            position.y = amplitude * sin(f);
+            position.z += direction.y * (amplitude * cos(f));*/
+            
+            tangent += float3(
+                    -direction.x * direction.x * (steepness * sin(f)),
+                    direction.x * (steepness * cos(f)),
+                    -direction.x * direction.y * (steepness * sin(f))
+                );
+
+            binormal += float3(
+                    -direction.x * direction.y * (steepness * sin(f)),
+                    direction.y * (steepness * cos(f)),
+                    -direction.y * direction.y * (steepness * sin(f))
+                );
+            
+            return float3(
+                direction.x * amplitude * cos(f),
+                amplitude * sin(f),
+                direction.y * (amplitude * cos(f))
+                );
+        }
+
         
         void vert(inout appdata_full vertexData)
         {
             float3 position = vertexData.vertex.xyz;
-
-            float wavelength = 2 * UNITY_PI / _Wavelength;
-            float speed = sqrt(9.8/wavelength) * _Speed;
-            float2 direction = normalize(_Direction);
-            float f = wavelength * (dot(direction, position.xz) - speed * _Time.y);
-            float amplitude = _Steepness / wavelength;
-            position.x += direction * amplitude * cos(f);
-            position.y = amplitude * sin(f);
-            position.z += direction.y * (amplitude * cos(f));
+            float3 tangent = float3(1,0,0);
+            float3 binormal = float3(0,0,1);
+            float3 superPosition = position;
             
-            float3 tangent = float3(
-                    1 - direction.x * direction.x * (_Steepness * sin(f)),
-                    direction.x * (_Steepness * cos(f)),
-                    -direction.x * direction.y * (_Steepness * sin(f))
-                );
-
-            float3 binormal = float3(
-                    -direction.x * direction.y * (_Steepness * sin(f)),
-                    direction.y * (_Steepness * cos(f)),
-                    1 - direction.y * direction.y * (_Steepness * sin(f))
-                );
+            superPosition += GerstnerWave(_WaveA, position, tangent, binormal);
             
             float3 normal = normalize(cross(binormal,tangent));
             
