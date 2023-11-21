@@ -27,12 +27,62 @@ namespace AAI.DFS
         void Start()
         {
             root = new Node(0);
-            root.left = new Node(1);
-            root.right = new Node(2);
-            root.left.left = new Node(3);
-            root.left.right = new Node(4);
+            
+            Insert(5, root);
+            Insert(5, root);
+            Insert(8, root);
+            Insert(3, root);
+            Insert(1, root);
+            Insert(9, root);
+            Insert(4, root);
+            Insert(2, root);
 
-            PrintInPostOrder(root);
+            PrintInOrder(root);
+            
+            Debug.Log(Search(7,root));
+        }
+
+        void Insert(int value, Node current)
+        {
+            if (value < current.data)
+            {
+                if (current.left == null)
+                    current.left = new Node(value);
+                else
+                    Insert(value, current.left);
+            }
+            if (value > current.data)
+            {
+                if (current.right == null)
+                    current.right = new Node(value);
+                else
+                    Insert(value, current.right);
+            }
+        }
+        
+        
+        Node Search(int value, Node current)
+        {
+            if (value == current.data)
+            {
+                return current;
+            }
+            if (value < current.data)
+            {
+                if (current.left == null)
+                    return null;
+                else
+                    return Search(value, current.left);
+            }
+            if (value > current.data)
+            {
+                if (current.right == null)
+                    return null;
+                else
+                    return Search(value, current.right);
+            }
+
+            return null;
         }
 
         void PrintInOrder(Node node)
